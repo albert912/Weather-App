@@ -4,7 +4,7 @@ async function getWeatherData() {
     try {
         let location = "istanbul";
         const response = await fetch(
-  `http://api.weatherapi.com/v1/current.json?key=KEY?
+  `https://api.weatherapi.com/v1/current.json?key=KEY?
 &q=${location}&aqi=no`,
   { mode: "cors" }
 );
@@ -79,7 +79,7 @@ searchInput.addEventListener("submit", (event) => {
   }
 
   // Fetch the weather data using the search query
-  fetch(`http://api.weatherapi.com/v1/current.json?key=KEY?
+  fetch(`https://api.weatherapi.com/v1/current.json?key=KEY?
 &q=${searchQuery}&aqi=no`, { mode: 'cors' })
     .then(response => response.json())
     .then(data => {
