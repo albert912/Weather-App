@@ -1,0 +1,13 @@
+Moderate or heavy rain with thunder -- https://cdn.weatherapi.com/weather/64x64/day/389.png
+
+Light Snow -- https://cdn.weatherapi.com/weather/64x64/night/326.png
+
+Partly Cloudy -- https://cdn.weatherapi.com/weather/64x64/day/116.png
+
+Overcast -- https://cdn.weatherapi.com/weather/64x64/night/122.png
+
+Sunny -- https://cdn.weatherapi.com/weather/64x64/day/113.png
+
+Light Rain -- https://cdn.weatherapi.com/weather/64x64/night/296.png
+
+
