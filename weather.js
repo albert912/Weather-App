@@ -79,7 +79,8 @@ searchInput.addEventListener("submit", (event) => {
   }
 
   // Fetch the weather data using the search query
-  fetch(`http://api.weatherapi.com/v1/current.json?key=2131437186b046c39d7223234240802&q=${searchQuery}&aqi=no`, { mode: 'cors' })
+  fetch(`http://api.weatherapi.com/v1/current.json?key=KEY?
+&q=${searchQuery}&aqi=no`, { mode: 'cors' })
     .then(response => response.json())
     .then(data => {
       // Display the weather data in the .showdata div
