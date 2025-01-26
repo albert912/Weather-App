@@ -190,7 +190,6 @@ else if (data.current.condition.text === "Cloudy") {
 
 }
 
-
       console.log(data.current.condition.text);
       console.log(data.current.condition.icon);
     })
