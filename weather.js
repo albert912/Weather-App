@@ -30,7 +30,6 @@ async function displayWeatherData() {
 
     
      
-
      
   const Data = {
    weather: getJSON.current.condition.text,
